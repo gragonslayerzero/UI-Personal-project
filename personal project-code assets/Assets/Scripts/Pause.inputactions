@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Pause",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "fb2bf38e-b7c1-49f7-8b74-0be85373da83",
+            "actions": [
+                {
+                    "name": "freeze",
+                    "type": "Button",
+                    "id": "df3c3d22-d8c2-4440-bbd5-fc63ab85f1a4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e6e6a3fa-8bba-4440-88bb-6ccd337d0b43",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "freeze",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
